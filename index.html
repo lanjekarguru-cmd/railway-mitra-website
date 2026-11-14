@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#092b4c">
+  <meta name="description" content="Railway Mitra — रेल्वेची माहिती, एका ठिकाणी.">
+  <title>Railway Mitra | रेल्वेची माहिती, एका ठिकाणी</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Railway Mitra home">
+      <span class="brand-mark">🚆</span>
+      <span>Railway <b>Mitra</b></span>
+    </a>
+    <nav>
+      <a href="#features" data-i18n="navFeatures">वैशिष्ट्ये</a>
+      <a href="#updates" data-i18n="navUpdates">अपडेट्स</a>
+      <a href="#download" data-i18n="navDownload">डाउनलोड</a>
+      <a href="#contact" data-i18n="navContact">संपर्क</a>
+    </nav>
+    <select id="language" aria-label="Choose language">
+      <option value="mr">मराठी</option>
+      <option value="hi">हिंदी</option>
+      <option value="en">English</option>
+    </select>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="eyebrow">तुमचा रेल्वे प्रवास साथी</span>
+        <h1 data-i18n="heroTitle">रेल्वेची माहिती,<br><em>एका ठिकाणी.</em></h1>
+        <p data-i18n="heroText">ट्रेन, प्रवास आणि रेल्वे अपडेट्सची माहिती सहज मिळवण्यासाठी — Railway Mitra.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#download" data-i18n="downloadButton">ॲप डाउनलोड करा</a>
+          <a class="btn secondary" href="#features" data-i18n="exploreButton">वैशिष्ट्ये पाहा</a>
+        </div>
+        <p class="small-note" data-i18n="heroNote">माहितीपूर्ण रेल्वे साथी • मराठी | हिंदी | English</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div><div class="track track-one"></div><div class="track track-two"></div>
+        <div class="train">🚆</div>
+        <div class="route-pill">YOUR JOURNEY, SIMPLIFIED</div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="featuresEyebrow">WHAT YOU CAN FIND</span>
+        <h2 data-i18n="featuresTitle">प्रवासासाठी उपयुक्त माहिती</h2>
+        <p data-i18n="featuresText">Railway Mitra मध्ये उपलब्ध असलेल्या आणि नियोजित सुविधांची माहिती.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span>🎫</span><h3 data-i18n="f1">PNR Status</h3><p data-i18n="f1d">तिकिटाच्या PNR स्थितीची माहिती.</p></article>
+        <article class="feature-card"><span>🚄</span><h3 data-i18n="f2">Train Status</h3><p data-i18n="f2d">ट्रेनची स्थिती आणि प्रवासविषयक अपडेट्स.</p></article>
+        <article class="feature-card"><span>🕒</span><h3 data-i18n="f3">Train Schedule</h3><p data-i18n="f3d">ट्रेनचे वेळापत्रक आणि थांबे.</p></article>
+        <article class="feature-card"><span>📍</span><h3 data-i18n="f4">Station Search</h3><p data-i18n="f4d">स्टेशनविषयक माहिती शोधा.</p></article>
+        <article class="feature-card"><span>📰</span><h3 data-i18n="f5">Railway Updates</h3><p data-i18n="f5d">रेल्वे सूचना आणि महत्त्वाच्या बातम्या.</p></article>
+        <article class="feature-card"><span>🌴</span><h3 data-i18n="f6">Konkan Railway Info</h3><p data-i18n="f6d">कोकण रेल्वे मार्गावरील माहिती आणि अपडेट्स.</p></article>
+      </div>
+    </section>
+
+    <section class="updates" id="updates">
+      <div>
+        <span class="eyebrow" data-i18n="updatesEyebrow">STAY INFORMED</span>
+        <h2 data-i18n="updatesTitle">रेल्वे अपडेट्स</h2>
+        <p data-i18n="updatesText">महत्त्वाच्या सूचना, वेळापत्रकातील बदल आणि रेल्वे बातम्या येथे पाहता येतील.</p>
+      </div>
+      <div class="update-placeholder"><span>🔔</span><b data-i18n="updatesSoon">अपडेट्स लवकरच येथे उपलब्ध होतील.</b><small data-i18n="updatesHint">प्रकाशित करण्यापूर्वी प्रत्येक अपडेटची अधिकृत स्रोतांशी पडताळणी करा.</small></div>
+    </section>
+
+    <section class="download section" id="download">
+      <div class="download-icon">📱</div>
+      <div>
+        <span class="eyebrow" data-i18n="downloadEyebrow">GET THE APP</span>
+        <h2 data-i18n="downloadTitle">Railway Mitra सोबत रहा</h2>
+        <p data-i18n="downloadText">Android ॲपची अधिकृत APK फाईल उपलब्ध झाल्यावर येथे डाउनलोड लिंक दिली जाईल.</p>
+      </div>
+      <span class="coming-soon" data-i18n="comingSoon">लवकरच उपलब्ध</span>
+    </section>
+
+    <section class="contact section" id="contact">
+      <span class="eyebrow" data-i18n="contactEyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+      <h2 data-i18n="contactTitle">संपर्क करा</h2>
+      <p data-i18n="contactText">सूचना, अभिप्राय किंवा मदतीसाठी संपर्क माहिती लवकरच येथे जोडली जाईल.</p>
+      <a class="btn secondary" href="#home" data-i18n="backTop">वर जा ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">🚆</span><span>Railway <b>Mitra</b></span></a>
+    <p data-i18n="footerText">रेल्वे प्रवासासाठी तुमचा माहिती साथी.</p>
+    <small>© <span id="year"></span> Railway Mitra. <span data-i18n="rights">सर्व हक्क राखीव.</span></small>
+    <small class="disclaimer" data-i18n="disclaimer">ही स्वतंत्र माहिती सेवा आहे. ही भारतीय रेल्वे किंवा Konkan Railway ची अधिकृत वेबसाइट नाही.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
